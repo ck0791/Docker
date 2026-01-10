@@ -18,4 +18,4 @@ def teardown_function(function):
 #    assert add(test_basicfunc_add.x + test_basicfunc_subtract.y) == 11
 
 def test_basicfunc_subtract():
-    assert subtract(test_basicfunc_subtract.x - test_basicfunc_subtract.y) == 8
+    assert subtract(function.x,function.y) == 8
